@@ -22,6 +22,8 @@ Credly：https://www.credly.com/users/takashi-higuchi.2d0eec27 （131件。件�
 
 JavaScriptを使わずに読める形式（Credlyの一覧に載る130件）：https://www.credly.com/users/takashi-higuchi.2d0eec27/badges.json
 
+行政のデジタル活用に関わる役割・認定：デジタル推進委員（デジタル庁任命・2025年12月）、地域DXプロデューサー★（一般社団法人デジタル田園都市国家構想応援団・2025年9月）
+
 ### 2026年11月に公開したもの
 
 - [jissoku-agent](https://github.com/takashi-101/jissoku-agent) — 業務量の実測データを分析するAIエージェント。LLMには数値を書かせず指標IDで参照させ、指標の取り違えまで検出する（LangGraph・MCP・ローカルLLM）
