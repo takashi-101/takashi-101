@@ -18,7 +18,7 @@
 | 業務改革・AX推進（課題の整理から定着まで） | [gyomu-tanaoroshi](https://github.com/takashi-101/gyomu-tanaoroshi)、[fde-checklist](https://github.com/takashi-101/fde-checklist)、[funding-guide](https://github.com/takashi-101/funding-guide) | 21件（Process Mining - From Theory to Execution、Generative AI for Business Analysts Specialization、Lean Six Sigma White Belt ほか） |
 | 生成AIの業務活用 | [ai-decision-audit](https://github.com/takashi-101/ai-decision-audit) | 20件（Google AI Professional Certificate、Generative AI Fundamentals Specialization ほか） |
 
-Credly：https://www.credly.com/users/takashi-higuchi.2d0eec27 （131件。件数は2026年11月13日時点で、上の7分野に1件ずつ振り分けたもの）
+Credly：https://www.credly.com/users/takashi-higuchi.2d0eec27 （130件とその他1件。2026年11月13日時点。上の表の件数は、この計131件を7分野に1件ずつ振り分けたもの）
 
 JavaScriptを使わずに読める形式（Credlyの一覧に載る130件）：https://www.credly.com/users/takashi-higuchi.2d0eec27/badges.json
 
