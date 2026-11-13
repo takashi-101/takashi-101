@@ -1,4 +1,6 @@
-**FDE（Forward Deployed Engineer）**｜行政・大学の現場で、生成AIを動く形にして定着させる仕事をしています。
+### FDE（Forward Deployed Engineer）
+
+行政・大学の現場で、生成AIを動く形にして定着させる仕事をしています。
 
 経歴サイト：https://takashi-101.github.io/
 
