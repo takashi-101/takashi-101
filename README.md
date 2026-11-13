@@ -22,6 +22,8 @@ Credly：https://www.credly.com/users/takashi-higuchi.2d0eec27 （131件。件�
 
 JavaScriptを使わずに読める形式（Credlyの一覧に載る130件）：https://www.credly.com/users/takashi-higuchi.2d0eec27/badges.json
 
+生成AIの業務活用に関わる資格：AI業務支援士（特定非営利活動法人IT整備士協会・2026年7月）、生成AIパスポート（一般社団法人生成AI活用普及協会・2023年10月）
+
 行政・教育のデジタル活用に関わる役割・認定：デジタル推進委員（デジタル庁任命・2025年12月）、地域DXプロデューサー★（一般社団法人デジタル田園都市国家構想応援団・2025年9月）、教育CIO養成課程 修了（社会構想大学院大学 先端教育研究所・2025年3月）
 
 ### 2026年11月に公開したもの
