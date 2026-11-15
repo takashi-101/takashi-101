@@ -1,0 +1,22 @@
+name: evidence-links
+on:
+  schedule:
+    - cron: "0 0 * * 1"   # 毎週月曜 9:00（日本時間）
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/check_evidence_links.py
+      - .github/workflows/evidence-links.yml
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Check verification URLs
+        run: python scripts/check_evidence_links.py
