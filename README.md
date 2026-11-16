@@ -1,10 +1,24 @@
-### FDE（Forward Deployed Engineer）
+## 樋口 隆史（ひぐち たかし）｜FDE（Forward Deployed Engineer）
 
-行政・大学の現場で、生成AIを動く形にして定着させる仕事をしています。
+行政・大学の現場で、生成AIを動く形にして定着させる仕事をしています。福岡在住。
 
-経歴サイト：https://takashi-101.github.io/
+- 経歴サイト：https://takashi-101.github.io/
+- ポートフォリオ（代表実績5件）：https://takashi-101.github.io/portfolio/
 
-ポートフォリオ（代表実績5件）：https://takashi-101.github.io/portfolio/
+### なぜ、動くものを公開しているか
+
+- **「できる」を、読み手が確かめられる形にするため**：コード・テスト・実行結果と、できないこと（制約）を、誰でも動かして確かめられる形で置いています。
+- **学びを、動くもので示すため**：修了証・バッジで身につけた知識を、動く道具と検証記録にしています。どの機能にどの学びを使ったかは、各リポジトリの README の「根拠（学習）」に照会先つきで載せています。下の表はその索引です。
+- **閉域（ネットにつながない環境）とローカルLLMを多く扱う理由**：行政・大学の現場には、外に出せない情報を扱う業務があります。クラウドのAIに送ってよい情報と、手元で処理する情報を分け、後者でも生成AIを使えるようにするためです。
+
+### はじめに見るなら
+
+| 見たいもの | リポジトリ |
+|---|---|
+| 実機で測った記録（コードと全出力） | [local-llm-record](https://github.com/takashi-101/local-llm-record) |
+| AIエージェントの実装（数値を作らせない仕組みと評価） | [jissoku-agent](https://github.com/takashi-101/jissoku-agent) |
+| AIエージェントの管理（導入前の棚卸し・接続前の点検・動かした後の点検） | [agent-ledger](https://github.com/takashi-101/agent-ledger)、[mcp-tool-lock](https://github.com/takashi-101/mcp-tool-lock)、[agent-trace-review](https://github.com/takashi-101/agent-trace-review) |
+| 画面を開いてすぐ試せる業務ツール | [gyomu-tanaoroshi](https://takashi-101.github.io/gyomu-tanaoroshi/)、[madoguchi-kaito](https://takashi-101.github.io/madoguchi-kaito/)、[shinsei-fubi-check](https://takashi-101.github.io/shinsei-fubi-check/)、[ittsukan-tool](https://takashi-101.github.io/ittsukan-tool/) |
 
 ### FDE・AXで求められる力と、その根拠
 
@@ -55,6 +69,8 @@ JavaScriptを使わずに読める形式（Credlyの一覧に載る130件）：h
 - [remove-keep-marks](https://github.com/takashi-101/remove-keep-marks) — Wordの見出しの行頭に出る黒い点（■）を元の設定ごと外し、ページ最下部に取り残された見出しを検出するスクリプト
 
 ### 現場で使う小さな道具
+
+導入や運用の現場で使う確認を、1つずつ切り出した小さな部品です。どれも Python の標準ライブラリだけで動きます。
 
 - [fde-ops-doctor](https://github.com/takashi-101/fde-ops-doctor) — Pythonの版・空き容量・設定ファイル・SQLiteの整合性を1コマンドで確かめる、運用の一次切り分けツール
 - [fde-rag-chunk-auditor](https://github.com/takashi-101/fde-rag-chunk-auditor) — 文書を決まった文字数で分割し、文の途中で切れたチャンクの数を数える点検ツール
